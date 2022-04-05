@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '3.0.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
@@ -66,9 +66,9 @@ group :development do
   gem 'rack-canonical-host'
   gem 'rails-erd'
   gem 'rollbar'
-  gem 'rubocop'
-  gem 'rubocop-performance'
-  gem 'rubocop-rails'
+  gem "standard", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec", require: false
   gem 'skylight'
-  gem 'web_git', github: 'firstdraft/web_git', branch: 'spring2020'
+  gem 'web_git', github: 'firstdraft/web_git'
 end
