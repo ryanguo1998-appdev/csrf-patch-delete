@@ -1,24 +1,6 @@
-# README
+# A few loose ends
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, we'll tie up a few loose ends:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Using PATCH and DELETE routes.
+ - Enabling Cross-Site Request Forgery (CSRF) protection.
